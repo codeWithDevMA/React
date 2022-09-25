@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom";
 // function myfunction() {
 //   return <h1> i'm learning react </h1>;
 // }
@@ -39,6 +41,6 @@ const page = (
     </nav>
   </div>
 );
+// ReactDOM.render(page, document.getElementById("root"));
 ReactDOM.render(page, document.getElementById("root"));
-
-// 30:45
+// 46:13
